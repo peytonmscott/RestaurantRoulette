@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D81BFE1E2181EB2B2166D83 /* Pods_RestaurantRoulette.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DEC40C5698B136A56667EF /* Pods_RestaurantRoulette.framework */; };
+		C53B31C629F4865800FA738D /* RestaurantRouletteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B31C529F4865800FA738D /* RestaurantRouletteApp.swift */; };
+		C53B31C829F4865800FA738D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B31C729F4865800FA738D /* ContentView.swift */; };
+		C53B31CA29F4865900FA738D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53B31C929F4865900FA738D /* Assets.xcassets */; };
+		C53B31CD29F4865900FA738D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53B31CC29F4865900FA738D /* Preview Assets.xcassets */; };
+		C53B31D429F486D600FA738D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B31D329F486D600FA738D /* LocationManager.swift */; };
+		C53B31D629F486F700FA738D /* RestaurantAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B31D529F486F700FA738D /* RestaurantAPI.swift */; };
+		C53B31DA29F4872B00FA738D /* RouletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B31D929F4872B00FA738D /* RouletteView.swift */; };
+		C53B31DC29F4875200FA738D /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B31DB29F4875200FA738D /* RestaurantListView.swift */; };
+		C53B31DE29F48BAF00FA738D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B31DD29F48BAF00FA738D /* LoginView.swift */; };
+		C53B31E029F48D2700FA738D /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B31DF29F48D2700FA738D /* FirebaseAuthManager.swift */; };
+		C545685429F497510095CEB1 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = C545685329F497510095CEB1 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		C545685629F497510095CEB1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C545685529F497510095CEB1 /* FirebaseAuth */; };
+		C545685829F4A2770095CEB1 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C545685729F4A2770095CEB1 /* RegistrationView.swift */; };
+		C545685A29F4AB1A0095CEB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C545685929F4AB1A0095CEB1 /* GoogleService-Info.plist */; };
+		C545686029F4B7730095CEB1 /* SelectRestaurantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C545685F29F4B7730095CEB1 /* SelectRestaurantsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0579A4609A014E2FC46322A2 /* Pods-RestaurantRoulette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantRoulette.release.xcconfig"; path = "Target Support Files/Pods-RestaurantRoulette/Pods-RestaurantRoulette.release.xcconfig"; sourceTree = "<group>"; };
+		3A1433FDF049F6C5931FD02D /* Pods-RestaurantRoulette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantRoulette.debug.xcconfig"; path = "Target Support Files/Pods-RestaurantRoulette/Pods-RestaurantRoulette.debug.xcconfig"; sourceTree = "<group>"; };
+		A1DEC40C5698B136A56667EF /* Pods_RestaurantRoulette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestaurantRoulette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53B31C229F4865800FA738D /* RestaurantRoulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantRoulette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53B31C529F4865800FA738D /* RestaurantRouletteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRouletteApp.swift; sourceTree = "<group>"; };
+		C53B31C729F4865800FA738D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C53B31C929F4865900FA738D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C53B31CC29F4865900FA738D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C53B31D329F486D600FA738D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C53B31D529F486F700FA738D /* RestaurantAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantAPI.swift; sourceTree = "<group>"; };
+		C53B31D929F4872B00FA738D /* RouletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteView.swift; sourceTree = "<group>"; };
+		C53B31DB29F4875200FA738D /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
+		C53B31DD29F48BAF00FA738D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C53B31DF29F48D2700FA738D /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
+		C545684C29F493E70095CEB1 /* Pods.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		C545685729F4A2770095CEB1 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		C545685929F4AB1A0095CEB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C545685F29F4B7730095CEB1 /* SelectRestaurantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRestaurantsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C53B31BF29F4865800FA738D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C545685629F497510095CEB1 /* FirebaseAuth in Frameworks */,
+				C545685429F497510095CEB1 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				5D81BFE1E2181EB2B2166D83 /* Pods_RestaurantRoulette.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E993B873D3C3855A763750 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A1433FDF049F6C5931FD02D /* Pods-RestaurantRoulette.debug.xcconfig */,
+				0579A4609A014E2FC46322A2 /* Pods-RestaurantRoulette.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0B151FF0F97989ADD6C0E22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1DEC40C5698B136A56667EF /* Pods_RestaurantRoulette.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C53B31B929F4865800FA738D = {
+			isa = PBXGroup;
+			children = (
+				C545684C29F493E70095CEB1 /* Pods.xcconfig */,
+				C53B31C429F4865800FA738D /* RestaurantRoulette */,
+				C53B31C329F4865800FA738D /* Products */,
+				55E993B873D3C3855A763750 /* Pods */,
+				B0B151FF0F97989ADD6C0E22 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C53B31C329F4865800FA738D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C53B31C229F4865800FA738D /* RestaurantRoulette.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C53B31C429F4865800FA738D /* RestaurantRoulette */ = {
+			isa = PBXGroup;
+			children = (
+				C53B31C529F4865800FA738D /* RestaurantRouletteApp.swift */,
+				C53B31C729F4865800FA738D /* ContentView.swift */,
+				C53B31D329F486D600FA738D /* LocationManager.swift */,
+				C53B31D529F486F700FA738D /* RestaurantAPI.swift */,
+				C53B31DB29F4875200FA738D /* RestaurantListView.swift */,
+				C53B31D929F4872B00FA738D /* RouletteView.swift */,
+				C53B31DD29F48BAF00FA738D /* LoginView.swift */,
+				C545685F29F4B7730095CEB1 /* SelectRestaurantsView.swift */,
+				C545685729F4A2770095CEB1 /* RegistrationView.swift */,
+				C53B31DF29F48D2700FA738D /* FirebaseAuthManager.swift */,
+				C53B31C929F4865900FA738D /* Assets.xcassets */,
+				C545685929F4AB1A0095CEB1 /* GoogleService-Info.plist */,
+				C53B31CB29F4865900FA738D /* Preview Content */,
+			);
+			path = RestaurantRoulette;
+			sourceTree = "<group>";
+		};
+		C53B31CB29F4865900FA738D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C53B31CC29F4865900FA738D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C53B31C129F4865800FA738D /* RestaurantRoulette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53B31D029F4865900FA738D /* Build configuration list for PBXNativeTarget "RestaurantRoulette" */;
+			buildPhases = (
+				40DC8178687247A1C9EAF76A /* [CP] Check Pods Manifest.lock */,
+				C53B31BE29F4865800FA738D /* Sources */,
+				C53B31BF29F4865800FA738D /* Frameworks */,
+				C53B31C029F4865800FA738D /* Resources */,
+				93B7A6589211BE37F72882EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestaurantRoulette;
+			packageProductDependencies = (
+				C545685329F497510095CEB1 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				C545685529F497510095CEB1 /* FirebaseAuth */,
+			);
+			productName = RestaurantRoulette;
+			productReference = C53B31C229F4865800FA738D /* RestaurantRoulette.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C53B31BA29F4865800FA738D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C53B31C129F4865800FA738D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = C53B31BD29F4865800FA738D /* Build configuration list for PBXProject "RestaurantRoulette" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C53B31B929F4865800FA738D;
+			packageReferences = (
+				C545685229F497510095CEB1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C53B31C329F4865800FA738D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C53B31C129F4865800FA738D /* RestaurantRoulette */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C53B31C029F4865800FA738D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53B31CD29F4865900FA738D /* Preview Assets.xcassets in Resources */,
+				C545685A29F4AB1A0095CEB1 /* GoogleService-Info.plist in Resources */,
+				C53B31CA29F4865900FA738D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40DC8178687247A1C9EAF76A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestaurantRoulette-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B7A6589211BE37F72882EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RestaurantRoulette/Pods-RestaurantRoulette-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RestaurantRoulette/Pods-RestaurantRoulette-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RestaurantRoulette/Pods-RestaurantRoulette-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C53B31BE29F4865800FA738D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53B31C829F4865800FA738D /* ContentView.swift in Sources */,
+				C53B31DE29F48BAF00FA738D /* LoginView.swift in Sources */,
+				C545686029F4B7730095CEB1 /* SelectRestaurantsView.swift in Sources */,
+				C53B31E029F48D2700FA738D /* FirebaseAuthManager.swift in Sources */,
+				C545685829F4A2770095CEB1 /* RegistrationView.swift in Sources */,
+				C53B31D629F486F700FA738D /* RestaurantAPI.swift in Sources */,
+				C53B31C629F4865800FA738D /* RestaurantRouletteApp.swift in Sources */,
+				C53B31DC29F4875200FA738D /* RestaurantListView.swift in Sources */,
+				C53B31DA29F4872B00FA738D /* RouletteView.swift in Sources */,
+				C53B31D429F486D600FA738D /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C53B31CE29F4865900FA738D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C545684C29F493E70095CEB1 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C53B31CF29F4865900FA738D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C545684C29F493E70095CEB1 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C53B31D129F4865900FA738D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1433FDF049F6C5931FD02D /* Pods-RestaurantRoulette.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RestaurantRoulette/Preview Content\"";
+				DEVELOPMENT_TEAM = QR9P74BAL6;
+				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs to access your location to find nearby restaurants.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location needed to find restaurants.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peytonmscott.RestaurantRoulette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"WARNING_CFLAGS[arch=*]" = " Wno-quoted-include-in-framework-header";
+			};
+			name = Debug;
+		};
+		C53B31D229F4865900FA738D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0579A4609A014E2FC46322A2 /* Pods-RestaurantRoulette.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RestaurantRoulette/Preview Content\"";
+				DEVELOPMENT_TEAM = QR9P74BAL6;
+				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs to access your location to find nearby restaurants.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location needed to find restaurants.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peytonmscott.RestaurantRoulette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"WARNING_CFLAGS[arch=*]" = "Wno-quoted-include-in-framework-header";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C53B31BD29F4865800FA738D /* Build configuration list for PBXProject "RestaurantRoulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53B31CE29F4865900FA738D /* Debug */,
+				C53B31CF29F4865900FA738D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53B31D029F4865900FA738D /* Build configuration list for PBXNativeTarget "RestaurantRoulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53B31D129F4865900FA738D /* Debug */,
+				C53B31D229F4865900FA738D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C545685229F497510095CEB1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C545685329F497510095CEB1 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C545685229F497510095CEB1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		C545685529F497510095CEB1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C545685229F497510095CEB1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C53B31BA29F4865800FA738D /* Project object */;
+}

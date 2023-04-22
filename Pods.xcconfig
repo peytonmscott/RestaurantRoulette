@@ -1,0 +1,11 @@
+//
+//  Pods.xcconfig
+//  
+//
+//  Created by Peyton Scott on 4/22/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+WARNING_CFLAGS = -Wno-quoted-include-in-framework-header

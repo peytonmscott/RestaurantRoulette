@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "LOGO JPEG-02 Large.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
